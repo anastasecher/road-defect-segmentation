@@ -1,0 +1,52 @@
+{
+  "mask_mode": "sam",
+  "images": 2009,
+  "skipped_label_lines": 1,
+  "split_sizes": {
+    "train": 1407,
+    "test": 301,
+    "val": 301
+  },
+  "objects": {
+    "pothole": 1261,
+    "crack": 2518,
+    "manhole": 957
+  },
+  "mask_source": {
+    "pothole": {
+      "sam": 1260,
+      "box": 1
+    },
+    "crack": {
+      "sam": 2517,
+      "box": 1
+    },
+    "manhole": {
+      "sam": 957,
+      "box": 0
+    }
+  },
+  "pixels_train": {
+    "background": 314761717,
+    "pothole": 915295,
+    "crack": 8058817,
+    "manhole": 436971
+  },
+  "objects_per_split": {
+    "test": {
+      "pothole": 173,
+      "crack": 385,
+      "manhole": 149
+    },
+    "train": {
+      "pothole": 901,
+      "crack": 1781,
+      "manhole": 652
+    },
+    "val": {
+      "pothole": 187,
+      "crack": 352,
+      "manhole": 156
+    }
+  }
+}

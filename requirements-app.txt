@@ -1,0 +1,8 @@
+# зависимости только для запуска интерфейса (без обучения и SAM)
+torch
+segmentation-models-pytorch
+gradio
+opencv-python-headless
+pandas
+matplotlib
+Pillow

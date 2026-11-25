@@ -1,0 +1,13 @@
+torch>=2.1
+torchvision
+segmentation-models-pytorch>=0.3.3
+albumentations>=1.4
+opencv-python-headless
+numpy
+pandas
+matplotlib
+tqdm
+Pillow
+ultralytics>=8.3   # только для разметки масок через SAM 2 (--mask-mode sam)
+gradio>=4.0       # веб-интерфейс app.py
+pytest
